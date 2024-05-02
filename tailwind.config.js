@@ -16,6 +16,7 @@ module.exports = {
     },
     backgroundImage: {
       'personalized-pattern': "url('/src/assets/curated-below-the-fold-frame.webp')",
+      'outSchool-pattern': "url('/src/assets/outSchool.svg')",
     }
   },
   plugins: [],
