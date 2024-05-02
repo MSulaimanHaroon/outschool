@@ -14,6 +14,9 @@ module.exports = {
       'xs': { 'max': '480px' },
       '2xs': { 'max': '340px' },
     },
+    backgroundImage: {
+      'personalized-pattern': "url('/src/assets/curated-below-the-fold-frame.webp')",
+    }
   },
   plugins: [],
 }

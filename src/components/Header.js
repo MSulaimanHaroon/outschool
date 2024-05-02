@@ -55,7 +55,7 @@ const Header = () => {
                         </div>
 
                     </div>
-                    <div className='flex justify-around items-center mb-1'>
+                    <div className='flex justify-around items-center '>
                         <NavDrop name="Popular" options={options}/>
                         <NavDrop name="Tutoring & Private Lessons" options={options}/>
                         <NavDrop name="Full Courses" options={options}/>
