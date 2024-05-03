@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa6";
 const TutorCard = () => {
     return (
         <div className='pt-[1em] pb-[1em]'>
-            <Link className='flex w-[242px] relative justify-start mr-[18px] mt-[73px] hover:drop-shadow-lg  '>
+            <Link to="/tutor" className='flex w-[242px] relative justify-start mr-[18px] mt-[73px] hover:drop-shadow-lg  '>
                 <div className='bg-white border-[#dddfe3] rounded-[8px] border-[1px] text-[#2e3238] h-[339px] w-[242px]'>
                     <div className='p-[10px]'>
                         <div className='h-[142px] w-[142px] rounded-full p-[0.2rem] border-2 border-[#f7f7f7] bg-white absolute top-[-73px] left-[50px]'>

@@ -5,7 +5,7 @@ const NavDrop = ({ name, options }) => {
         <div className="group relative cursor-pointer py-1">
 
             <div className="flex items-center justify-between space-x-5 bg-white px-4">
-                <a className='font-medium text-black hover:text-[#4B01D4] hover:underline decoration-[#4B01D4] hover:underline-offset-8'>{name}</a>
+                <a href='/' className='font-lg text-black hover:text-[#4B01D4] hover:underline decoration-[#4B01D4] hover:underline-offset-8'>{name}</a>
                 {/* <span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                         stroke="currentColor" className="h-6 w-6">

@@ -2,7 +2,7 @@ import React from 'react'
 import { ImSearch } from "react-icons/im";
 import { FiLogIn } from "react-icons/fi";
 import { MdOutlineHelpOutline } from "react-icons/md";
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from '../assets/logo.svg'
 import NavDrop from './NavDrop';
 import options from '../data/option';
@@ -15,9 +15,9 @@ const Header = () => {
     }
 
     return (
-        <div className='w-full bg-[white] drop-shadow-md'>
+        <div className='w-full bg-[white] drop-shadow-sm z-10 relative'>
             <div className='w-white'>
-                <div className='w-[75%] lg:w-[75%] mx-auto flex flex-col gap-3'>
+                <div className='w-[78.2%] lg:w-[75%] mx-auto flex flex-col gap-3'>
                     <div className=' md-lg:h-[100px] flex items-center justify-center'>
                         <div className='md-lg:w-full'>
                             <div className='flex justify-center mx-5 items-center '>
@@ -55,7 +55,7 @@ const Header = () => {
                         </div>
 
                     </div>
-                    <div className='flex justify-around items-center '>
+                    <div className='flex md:hidden justify-between items-center '>
                         <NavDrop name="Popular" options={options}/>
                         <NavDrop name="Tutoring & Private Lessons" options={options}/>
                         <NavDrop name="Full Courses" options={options}/>
@@ -64,7 +64,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className='hidden md-lg:block'>
+            <div className='hidden md-lg:hidden'>
                 <div className='w-[85%] mx-auto my-0'>
                     <div className='flex border rounded-[10px] drop-shadow-lg h-[50px] items-center relative gap-5'>
 

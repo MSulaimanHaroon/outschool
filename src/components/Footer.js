@@ -237,16 +237,16 @@ const Footer = () => {
             <div className='font-semibold text-white '> &copy;{new Date().getFullYear()} OutSchool</div>
             <div className='flex gap-5 items-center'>
               <div className='flex text-white text-sm gap-2'>
-                <a href='#'><FaFacebook /></a>
-                <a href='#'><FaInstagram /></a>
-                <a href='#'><FaPinterest /></a>
-                <a href='#'><FaTwitter /></a>
-                <a href='#'><FaYoutube /></a>
+                <a href='/'><FaFacebook /></a>
+                <a href='/'><FaInstagram /></a>
+                <a href='/'><FaPinterest /></a>
+                <a href='/'><FaTwitter /></a>
+                <a href='/'><FaYoutube /></a>
               </div>
               <div className='flex items-center gap-1 '>
-                <a className='flex items-center text-sm text-white' href='#'><TbWorld />English</a>
-                <a className='flex items-center text-sm text-white' href='#'> <span className='mx-1'>•</span> <FaDollarSign /> USD</a>
-                <a className='flex items-center text-sm text-white' href='#'> <span className='mx-1'>•</span> <BsClockFill /> Asia (Karachi)</a>
+                <a className='flex items-center text-sm text-white' href='/'><TbWorld />English</a>
+                <a className='flex items-center text-sm text-white' href='/'> <span className='mx-1'>•</span> <FaDollarSign /> USD</a>
+                <a className='flex items-center text-sm text-white' href='/'> <span className='mx-1'>•</span> <BsClockFill /> Asia (Karachi)</a>
               </div>
             </div>
           </div>

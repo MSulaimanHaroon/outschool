@@ -4,8 +4,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const StickyNavbar = ({ isSticky }) => {
     return (
-        <section className={`w-full flex flex-col ${isSticky ? 'sticky top-0 z-50' : ''} items-center mt-10 justify-center`}>
-            <div className='w-[78.2%] h-[60px] bg-white flex  justify-between ' >
+        <section className={`w-full flex flex-col ${isSticky ? 'sticky top-0 z-50' : ''}  items-center md:hidden justify-center`}>
+            <div className='w-[78.2%] md:w-[50%] h-[60px] bg-white flex  justify-between ' >
                 <div className='flex gap-3 items-center '>
                     <button className='font-semibold justify-center text-lg px-3 py-2 hover:bg-[#f0f3ff] border-[1px]  hover:border-[#3059ff] border-1 border-[#d8d8d8] rounded-full flex items-center gap-1 '>
                         Day or time <IoIosArrowDown />
