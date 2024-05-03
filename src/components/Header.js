@@ -15,7 +15,7 @@ const Header = () => {
     }
 
     return (
-        <div className='w-full bg-[white] drop-shadow-sm z-10 relative'>
+        <div className='w-full bg-[white] drop-shadow-sm relative z-20'>
             <div className='w-white'>
                 <div className='w-[78.2%] lg:w-[75%] mx-auto flex flex-col gap-3'>
                     <div className=' md-lg:h-[100px] flex items-center justify-center'>
@@ -33,7 +33,7 @@ const Header = () => {
                         </div>
 
 
-                        <div className='w-full md-lg:w-full'>
+                        <div className='w-full md:hidden  md-lg:w-full'>
                             <div className='flex border-2 border-black w-[100%] rounded-full h-[50px] items-center relative gap-5'>
                                 <input className='w-full relative drop-shadow-lg bg-transparent text-lg font-medium text-slate-500 outline-0 px-4 h-full' type="text" name="" id="" placeholder='Search online classes and tutors' />
                                 <button onClick={search} className=' rounded-[10px] right-0 absolute px-3 h-9 mr-1 font-semibold uppercase text-black'><ImSearch /></button>
@@ -64,14 +64,13 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className='hidden md-lg:hidden'>
-                <div className='w-[85%] mx-auto my-0'>
-                    <div className='flex border rounded-[10px] drop-shadow-lg h-[50px] items-center relative gap-5'>
-
-                        <input className='w-full relative  bg-transparent text-slate-500 outline-0 px-3 h-full' type="text" name="" id="" placeholder='what do you need' />
-                        <button onClick={search} className='bg-[#1e6959] rounded-[10px] right-0 absolute px-4 h-full font-semibold uppercase text-white'><ImSearch /></button>
-                    </div>
-                </div>
+            <div className='hidden  md-lg:block'>
+            <div className='w-full sticky top-0 z-50  bg-white  md-lg:w-full'>
+                            <div className='flex  border-2 border-black w-[100%] rounded-full h-[50px] items-center relative gap-5'>
+                                <input className='w-full relative drop-shadow-lg bg-transparent text-lg font-medium text-slate-500 outline-0 px-4 h-full' type="text" name="" id="" placeholder='Search online classes and tutors' />
+                                <button onClick={search} className=' rounded-[10px] right-0 absolute px-3 h-9 mr-1 font-semibold uppercase text-black'><ImSearch /></button>
+                            </div>
+                        </div>
             </div>
 
 

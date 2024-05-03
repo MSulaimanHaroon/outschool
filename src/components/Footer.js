@@ -28,204 +28,204 @@ const Footer = () => {
       </svg>
       <div className='w-full flex gap-2 bg-[#e7ebff] pt-[1rem] pb-[4rem] justify-evenly'>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
       </div>
       <div className='w-full flex gap-2 bg-[#e7ebff] pb-[4rem] justify-evenly'>
         <div className='flex  flex-col justify-evenly gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex  w-[30%] flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
       </div>
       <div className='w-full flex gap-2 bg-[#e7ebff] pb-[5rem] justify-evenly'>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>
         <div className='flex flex-col gap-3'>
-          <h1 className='font-bold text-2xl'>About</h1>
-          <a className='text-lg hover:underline ' href='/'>
+          <h1 className='font-bold text-2xl md:text-xl'>About</h1>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Company
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             DEIB Statement
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Careers
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Blogs
           </a>
-          <a className='text-lg hover:underline ' href='/'>
+          <a className='text-lg md:text-sm hover:underline ' href='/'>
             Press
           </a>
         </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import { FaCircleChevronLeft } from "react-icons/fa6";
-import { FaCircleChevronRight } from "react-icons/fa6";
+// import { FaCircleChevronLeft } from "react-icons/fa6";
+// import { FaCircleChevronRight } from "react-icons/fa6";
 import ChipSet from '../components/chipSet'
 import { chipData } from '../data/chipData'
 import { Swiper, SwiperSlide } from 'swiper/react'

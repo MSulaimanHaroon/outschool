@@ -17,7 +17,6 @@ import ReviewCard from '../components/ReviewCard'
 
 const Tutoring = () => {
     const tutors = Array.from({ length: 8 }, (_, index) => index + 1);
-    const reviews = Array.from({ length: 6 }, (_, index) => index + 1);
     const [isSticky, setIsSticky] = useState(true);
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
@@ -70,20 +69,20 @@ const Tutoring = () => {
             <section className='w-full flex items-center mt-5 justify-center '>
                 <div className='bg-personalized-pattern w-[78.2%] rounded-[20px] bg-[length:100%_100%] bg-no-repeat flex ' >
                     <div className='flex flex-col justify-center mt-5 px-11 py-5'>
-                        <h1 className='font-extrabold mt-5 text-[40px]'>Help your kids build math skills [eCourse]</h1>
-                        <div className='flex gap-3 items-center'>
-                            <div className=' flex flex-col gap-4 mt-3 w-[60%]'>
+                        <h1 className='font-extrabold mt-5 md:text-2xl  text-[40px]'>Help your kids build math skills [eCourse]</h1>
+                        <div className='flex gap-3 md: items-center'>
+                            <div className=' flex flex-col gap-4 md:gap-2 mt-3 w-[60%] md:w-[100%]'>
                                 <p className='text-[16px] md:text-[12px] '>✅ Tips for boosting math superpowers</p>
                                 <p className='text-[16px] md:text-[12px]'>✅ How to find the right math tutor for your kids' ages</p>
                                 <p className='text-[16px] md:text-[12px]'>✅ Fun math games and classes </p>
                                 <p className='text-[16px] md:text-[12px]'>✅ Why 'New Math' isn't really new–or scary</p>
-                                <p className='text-[18px] md:text-[16px] font-bold'>Send my first lesson!</p>
+                                <p className='text-[18px] md:text-[14px] font-bold'>Send my first lesson!</p>
                                 <div className='flex gap-2 items-center'>
-                                    <input className='relative w-[70%] h-[37px] bg-white rounded-full text-lg font-medium text-slate-500 outline-2 px-5 ' type="text" name="" id="" placeholder='Enter your email' />
-                                    <button className='relative flex justify-center items-center cursor-pointer  text-white m-2 w-[90px] h-[40px] rounded-full bg-[#4B01D4] hover:bg-[#37009c]'> Sign Up</button>
+                                    <input className='relative w-[70%] h-[37px] md:h-[27px] bg-white rounded-full text-lg md:text-sm font-medium text-slate-500 outline-2 px-5 ' type="text" name="" id="" placeholder='Enter your email' />
+                                    <button className='relative flex justify-center items-center cursor-pointer  text-white m-2 w-[90px] h-[40px] md:h-[30px] rounded-full bg-[#4B01D4] hover:bg-[#37009c]'> Sign Up</button>
                                 </div>
                             </div>
-                            <div className='w-[25%] flex justify-center  '>
+                            <div className='w-[25%] md:hidden flex justify-center  '>
                                 <img src={Bear} alt='bear' />
                             </div>
 
@@ -104,7 +103,7 @@ const Tutoring = () => {
                                     slidesPerView: 2.3
                                 },
                                 565: {
-                                    slidesPerView: 1
+                                    slidesPerView: 1.5
                                 },
                             }}
 
@@ -189,7 +188,7 @@ const Tutoring = () => {
                                 slidesPerView: 5.5
                             },
                             565: {
-                                slidesPerView: 3
+                                slidesPerView: 5.5
                             },
                         }}
 
@@ -205,7 +204,7 @@ const Tutoring = () => {
                             el: '.custom_bullet'
                         }}
                     >
-                        {tutors.map((reviews, index) => (
+                        {tutors.map((tutor, index) => (
                             <SwiperSlide key={index}>
                                 <ButtonChip name="Anime Drawing" />
                             </SwiperSlide>
@@ -231,9 +230,9 @@ const Tutoring = () => {
 
             <section id="unsticky-section" className='w-full flex items-center mt-10 justify-center '>
                 <div className='bg-personalized-pattern w-[78.2%] rounded-[20px] bg-no-repeat ' >
-                    <span className='flex flex-col justify-center mt-5 items-center p-11'>
-                        <h1 className='font-extrabold text-[35px]'>Personalize their progress</h1>
-                        <p className='text-[17px] text-center p-6'>Whether you're looking for academic support, help with a core subject, or expert advice, you'll find it here. Parents love tutors on Outschool because they help kids learn in a way that works for them. Connect your kids with affordable tutors in a 1:1 setting.</p>
+                    <span className='flex flex-col justify-center mt-5 items-center md:p-1 p-11'>
+                        <h1 className='font-extrabold md:text-xl text-[35px]'>Personalize their progress</h1>
+                        <p className='text-[17px] md:text-sm text-center p-6'>Whether you're looking for academic support, help with a core subject, or expert advice, you'll find it here. Parents love tutors on Outschool because they help kids learn in a way that works for them. Connect your kids with affordable tutors in a 1:1 setting.</p>
                     </span>
                 </div>
             </section>

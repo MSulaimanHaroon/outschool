@@ -9,16 +9,16 @@ import Strike from "../assets/strike.svg"
 const HeroSection = () => {
     return (
         <section>
-            <div className='w-full h-[52svh] flex justify-center  bg-[#f0f3ff]'>
+            <div className='w-full relative z-10 h-[52svh] flex justify-center  bg-[#f0f3ff]'>
                 <div className='w-[78.2%] flex gap-5 justify-center items-center'>
-                    <div className='w-[55%]'>
-                        <div className='flex  flex-col gap-3 mt-11 mb-3'>
+                    <div className='w-[55%] sm:w-[100%] '>
+                        <div className='flex flex-col gap-3 mt-11 mb-3'>
                             <p className='text-sm flex items-center gap-2 '><TbHome className='text-[#4B01D4]' /> / Tutoring</p>
-                            <h1 className='text-[2.6rem] text-gray-800 leading-tight font-bold'>
+                            <h1 className='text-[2.3rem] md:text-[1.5rem] text-gray-800 leading-tight font-bold'>
                                 1-on-1 Online Tutoring for Kids & Teens
                             </h1>
                         </div>
-                        <div className='flex flex-col gap-2 mb-1'>
+                        <div className='flex md:text-[12px] flex-col gap-2 mb-1'>
                             <p>🎥 Engaging<b> live video chat tutoring</b></p>
 
                             <p>🥇 <b>Vetted and passionate</b> teachers</p>
@@ -26,9 +26,9 @@ const HeroSection = () => {
                             <p>👨‍🏫 <b>Individualized</b>, ongoing support</p>
                             <img width='400px' src={TrustPilot} alt='trust' />
                         </div>
-                        <div className='flex  items-center justify-start gap-4'>
+                        <div className='flex sm:hidden md:flex-col md:items-start items-center justify-start gap-4'>
 
-                            <h1 className='text-3xl font-bold text-gray-800'>Learner's Age</h1>
+                            <h1 className='text-3xl md:text-xl  font-bold text-gray-800'>Learner's Age</h1>
 
                             <div class="containerA">
                                 <form>
@@ -50,11 +50,11 @@ const HeroSection = () => {
 
                     </div>
 
-                    <div className='w-[50%] relative h-[420px]'>
-                        <img className='w-[100%] h-[100%] absolute top-[-5%]  ' src={HeroBack} alt='heroo' />
-                        <img className='rounded-[20px] w-[420px] h-[270px] top-[22%] left-[15%] z-2 relative ' src={Hero} alt='hero' />
-                        <img className='absolute w-2/12 bottom-[10%] left-[10%] z-3' src={Heart} alt='heart' />
-                        <img className='absolute z-1 left-[85%] bottom-[10%]' src={Strike} alt='strike' />
+                    <div className='w-[50%] z-0 relative h-[420px]'>
+                        <img className='w-[100%] h-[100%] absolute top-[-5%] md:hidden  ' src={HeroBack} alt='heroo' />
+                        <img className='rounded-[20px] w-[420px] h-[270px] md:w-[100%] sm:hidden top-[22%] left-[15%] z-2 relative ' src={Hero} alt='hero' />
+                        <img className='absolute w-2/12 bottom-[10%] md:hidden left-[10%] z-3' src={Heart} alt='heart' />
+                        <img className='absolute z-1 left-[85%] md:hidden bottom-[10%]' src={Strike} alt='strike' />
                     </div>
                 </div>
             </div>
